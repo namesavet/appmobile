@@ -30,4 +30,8 @@
     margin-top: 15px;
         text-align: center;
     }
-   
+.img-circle {
+    height: 20%;
+    border-radius: 50%;
+    
+}
