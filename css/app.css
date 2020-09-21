@@ -21,12 +21,12 @@
     color: white;
     }
     
-    .imgdetail{
+    .imgmove{
     
-        height: 70%;
+        width: 70%;
             text-align: center;
     }
-    .detailmovie{
+    .detailmove{
     margin-top: 15px;
         text-align: center;
     }
