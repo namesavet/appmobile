@@ -16,7 +16,18 @@ document.addEventListener('init', function (event) {
         
     } else if (page.id === 'page2') {
         page.querySelector('ons-toolbar .center').innerHTML = page.data.title;
+    } else if (page.id === 'search'){
+        page.querySelector('#search_aladdin').onclick = function () {
+            document.querySelector('#Navigator_search').pushPage('views/aladiin.html', { data: { title: 'Aladdin' } });
+        };
+        page.querySelector('#search_black').onclick = function () {
+            document.querySelector('#Navigator_search').pushPage('views/blackpanther.html', { data: { title: 'Black Panther' } });
+        };
+        page.querySelector('#search_avengers').onclick = function () {
+            document.querySelector('#Navigator_search').pushPage('views/avengers.html', { data: { title: 'Avengers' } });
+        };
     }
+
 });
 
 
